@@ -1,0 +1,37 @@
+.welcomePage {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+
+.welcomePage h1 {
+  font-size: 4vh;
+  font-weight: 800;
+  margin-bottom: -4vh;
+  text-align: center;
+}
+
+.welcomePage img {
+  margin: 3vh;
+}
+
+.welcomePage p {
+  font-size: 2.5vh;
+  font-weight: 700;
+  width: 50vw;
+  text-align: center;
+}
+
+@media (max-width: 1000px) {
+  .welcomePage h1 {
+    font-size: 2.5vh;
+  }
+
+  .welcomePage p {
+    width: 80vw;
+    font-size: 2vh;
+  }
+}

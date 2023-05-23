@@ -5,9 +5,9 @@
 }
 
 .headerComponent {
-  background-color: #ffdeb4;
+  background-color: white;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   width: 75%;
   height: 10vh;
@@ -17,4 +17,51 @@
 
 .headerComponent p {
   font-weight: 900;
+}
+
+.catdoroLogo {
+  font-weight: 700;
+  display: flex;
+  font-size: 2.5vw;
+  color: brown;
+  text-decoration: none;
+}
+
+.catdoroLogo:hover {
+  color: rgb(218, 43, 43);
+  transition: 0.2s;
+}
+
+.loginOrSignUp {
+  position: absolute;
+  margin-left: 50%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.userIcon {
+  color: brown;
+}
+
+.loginOrSignUp span {
+  font-size: 1.5vh;
+  margin-left: 5%;
+  text-align: left;
+  width: 9vw;
+}
+
+.linkButton {
+  color: black;
+  font-weight: 500;
+}
+
+@media (max-width: 1000px) {
+  .catdoroLogo {
+    font-size: 3.5vw;
+  }
+
+  .loginOrSignUp span {
+    display: none;
+  }
 }

@@ -1,0 +1,9 @@
+.clock p {
+  font-size: 10vw;
+}
+
+@media (max-width: 1000px) {
+  .clock p {
+    font-size: 13vw;
+  }
+}

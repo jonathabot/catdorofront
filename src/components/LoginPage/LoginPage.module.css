@@ -1,0 +1,109 @@
+.loginPage {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginComponent {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 2vh;
+  width: 40vw;
+  height: 60vh;
+  border-radius: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 -3rem;
+}
+
+.loginComponent h1 {
+  font-weight: 700;
+  font-size: 4vh;
+  color: rgb(44, 40, 40);
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  width: 25vw;
+  margin: 50px 20px 50px 20px;
+}
+
+.loginFields {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.8vh;
+  width: 25vw;
+  font-weight: 700;
+  color: rgb(88, 86, 86);
+}
+
+.loginFields input {
+  background-color: aliceblue;
+  border: none;
+  height: 5vh;
+  box-shadow: 2px 2px rgb(234, 142, 148), -0.1em 0 0.4em rgb(149, 149, 165);
+  border-radius: 10px;
+  margin: 2vh 0;
+  padding: 3px 10px;
+}
+
+.loginFields input:focus {
+  border: 3px solid #bb4545;
+}
+
+.formButton {
+  background-color: rgb(255, 75, 75);
+  border: none;
+  height: 5vh;
+  width: 15vw;
+  border-radius: 12px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  margin-top: 2.5vh;
+  cursor: pointer;
+}
+
+.formButton:hover {
+  font-size: 2vh;
+  transition: 0.4s;
+}
+
+.formButton:active {
+  background-color: white;
+}
+
+.loginSignUp {
+  display: flex;
+  flex-direction: column;
+  color: rgb(102, 97, 97);
+  font-family: 'Montserrat', sans-serif;
+  align-items: center;
+}
+
+.loginSignUp p {
+  font-size: 1vh;
+  font-weight: 400;
+}
+
+.signUpButton {
+  background-color: transparent;
+  border: none;
+  font-weight: bolder;
+  font-size: 1.5vh;
+  margin-top: 1vh;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(18, 17, 17);
+  cursor: pointer;
+}
+
+.signUpButton:hover {
+  color: #bb4545;
+}
